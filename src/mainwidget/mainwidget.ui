@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWidget</class>
+ <widget class="QWidget" name="MainWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>958</width>
+    <height>466</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="Switchbutton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="WaterWaveProgress" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>171</width>
+     <height>201</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="MarqueeLabel" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>10</y>
+     <width>361</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="CircleClickLabel" name="widget_3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>320</y>
+     <width>141</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-color: rgb(0, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="BatteryLabel" name="widget_4" native="true">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>80</y>
+     <width>161</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="RGradientLabel" name="widget_5" native="true">
+   <property name="geometry">
+    <rect>
+     <x>39</x>
+     <y>269</y>
+     <width>151</width>
+     <height>121</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="IpEdit" name="widget_6" native="true">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>180</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="LoadingProgress" name="widget_7" native="true">
+   <property name="geometry">
+    <rect>
+     <x>229</x>
+     <y>229</y>
+     <width>91</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Switchbutton</class>
+   <extends>QPushButton</extends>
+   <header location="global">switchbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>WaterWaveProgress</class>
+   <extends>QWidget</extends>
+   <header location="global">waterwaveprogress.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>MarqueeLabel</class>
+   <extends>QWidget</extends>
+   <header location="global">marqueelabel.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CircleClickLabel</class>
+   <extends>QWidget</extends>
+   <header location="global">circleclicklabel.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BatteryLabel</class>
+   <extends>QWidget</extends>
+   <header location="global">batterylabel.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RGradientLabel</class>
+   <extends>QWidget</extends>
+   <header location="global">rgradientlabel.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>IpEdit</class>
+   <extends>QWidget</extends>
+   <header location="global">ipedit.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>LoadingProgress</class>
+   <extends>QWidget</extends>
+   <header location="global">loadingprogress.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
